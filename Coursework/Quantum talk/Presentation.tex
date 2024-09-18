@@ -79,9 +79,40 @@
 	\end{frame}
 	
 		\begin{frame}
-		\frametitle{Obtaining the Lagrangian and Hamiltonian}
+		\frametitle{Obtaining the equation of motion}
 Plugging in the formulas obtained for Josephson junctions, we can obtain the current entering the nth unit cell as
-\[I_n=2 C_J \frac{\Phi_0}{2\pi}\frac{d^2\varphi_{Jn}}{dt^2}+2I_ccos\bigg(\frac{\pi \Phi^ext_n}{\Phi_0}\bigg)sin\varphi_{Jn}\]
+\[I_n=2 C_J \frac{\Phi_0}{2\pi}\frac{d^2\varphi_{Jn}}{dt^2}+2I_ccos\bigg(\frac{\pi \Phi^{ext}_n}{\Phi_0}\bigg)sin\varphi_{Jn}\]
+Applying $\varphi_{Jn}$=$\varphi_{n}$-$\varphi_{n+1}$ and plugging the above in the $V_n$ equation, we obtain
+\[(C_0+4C_J)\bigg(\frac{\Phi_0}{2\pi}\bigg)^2\frac{d^2\varphi_{n}}{dt^2}-2C_J\bigg(\frac{\Phi_0}{2\pi}\bigg)^2\bigg( \frac{d^2\varphi_{n-1}}{dt^2}+\frac{d^2\varphi_{n+1}}{dt^2}  \bigg)\]
+\[=-2E_Jcos\bigg(\frac{\pi \Phi^{ext}_n}{\Phi_0}\bigg)sin(\varphi_{n}-\varphi_{n+1})+2E_Jcos\bigg(\frac{\pi \Phi^{ext}_{n-1}}{\Phi_0}\bigg)sin(\varphi_{n-1}-\varphi_{n})\]
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Obtaining the EM phase speed}
+We can guess the Lagrangian, and eventually the Hamiltonian, which is nothing but
+\[H=\int_{-\infty}^{\infty}dx\bigg[\bigg(\frac{2\pi}{\Phi_0}\bigg)^2\frac{p^2}{2\mathcal{C}}+E_Jacos\bigg(\frac{\pi \Phi^{ext}}{\Phi_0}\bigg)\bigg(\frac{\partial\varphi}{\partial x}\bigg)^2\bigg]\]
+Of course we make a few approximations like the continuum approximation, neglecting the Josephson junction capacitance term. 
+We get the following wave equation
+\[\frac{\partial^2\varphi}{\partial t^2}=\frac{\partial}{\partial x}\bigg(c^2\frac{\partial \varphi}{\partial x}\bigg),c=\frac{1}{\sqrt{\mathcal{L}\mathcal{C}}}\]
+Where,
+\[\mathcal{C}=C_0/a,\mathcal{L}=\frac{\Phi_0}{4\pi I_ca}sec\bigg(\frac{\pi \Phi^{ext}}{\Phi_0}\bigg)\]
+	\end{frame}
+	
+		\begin{frame}
+		\frametitle{Getting the covariant wave equation}
+Now, we transform as x'=x-ut, t'=t, the wave equation becomes 
+\[\bigg(-\frac{\partial^2}{\partial t^2}+2u\frac{\partial^2}{\partial x\partial t}+\frac{\partial}{\partial x}\big(c^2-u^2\big)\frac{\partial}{\partial x}\bigg)\varphi=0=\frac{1}{\sqrt{-g}}\partial_\mu(\sqrt{-g}g^{\mu\nu}\partial_\nu\varphi)\]
+Where,
+\[ g^{\mu\nu}=\frac{1}{c}
+\begin{pmatrix}
+	-1 & u \\
+	u & c^2-u^2 
+\end{pmatrix}
+\]
+We finally take the Hawking temperature
+\[T_H=\frac{\hbar}{2\pi k_B}\bigg|\frac{\partial c}{\partial x}\bigg|_{x_h}\]
+And plug in the respective values to get an estimate (for $\bigg|\frac{\partial c}{\partial x}\bigg|_{x_h}$$\approx$0.01$c_0$/a, $C_0$=1$\mu$ F, $I_c$=5$\mu$A, $T_h$= 70 mK)
+ 
 	\end{frame}
 	
 		\begin{frame}
