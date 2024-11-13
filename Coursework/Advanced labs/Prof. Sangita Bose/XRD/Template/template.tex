@@ -11,6 +11,187 @@
 	\item To study the theory of X Ray diffraction, and use it on the given crystal (Lithium Fluoride)
 	\item To use different X-Rays (Copper and Molybdenum) and obtain the spectrum and hence the wavelength
 	\item To use a filter (Nickel for Copper and Zirconium for Molybdenum) and find out it's effects on the spectrum
-	\item To find out the structure of the given material (Copper)
+	\item To find out the structure of the given material (Copper).
 	\end{enumerate}
+	\section*{Apparatus required}
+	X Ray diffractometer, a crystal of Li-F, Cu and Mo metal targets, Computer for analysis and measuring.
+	\section*{Theory}
+	X Ray diffraction is a technique used to find atomic and molecular structures of a crystal. The atoms of a crystal, by virtue of their uniform spacing, cause an interference pattern of the waves present in an incident beam of X-rays. 
+	
+	\section*{Observations}
+	\subsection*{Target:Copper, Crystal:LiF, Filter: None}
+	We obtain a spectrum like this\\
+	\begin{center}
+		\includegraphics[width=10 cm]{Cu Target, LiF crystal, No Filter.png}\\
+		\textit{Spectrum of LiF XRD with Copper Target and no filter}
+	\end{center}
+	We try to match it with the table given to us
+
+		\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		2 $\theta$ & Intensity & h & k & l \\
+		\hline
+		38.696 & 95 & 1 & 1 & 1 \\
+		\hline
+		44.996 & 100 & 2 & 0 & 0 \\
+		\hline
+		65.494 & 48 & 2 & 2 & 0 \\
+		\hline
+		78.765 & 10 & 3 & 1 & 1 \\
+		\hline
+		82.998 & 11 & 2 & 2 & 2 \\
+		\hline
+		99.628 & 3 & 4 & 0 & 0 \\
+		\hline
+		112.967 & 4 & 3 & 3 & 1 \\
+		\hline
+		117.606 & 14 & 4 & 2 & 0 \\
+		\hline
+		139.134 & 13 & 4 & 2 & 2 \\
+		\hline
+	\end{tabular}\\
+	\textit{2$\theta$ vs Intensity data for Lithium Fluoride}
+	\end{center}
+	At the first thought, it seems like the 38.696, 44.996, to an extent 82.998 and 99.628 bands are visible. So we mark that.
+	\begin{center}
+		\includegraphics[width=10 cm]{a1.png}\\
+		\textit{Marked spectrum of LiF XRD with Copper Target and no filter}
+	\end{center}
+
+\subsection*{Target:Copper, Crystal:LiF, Filter:Ni}
+We obtain a spectrum like this\\
+\begin{center}
+	\includegraphics[width=10 cm]{Cu Target, LiF crystal, Ni Filter.png}\\
+	\textit{Spectrum of LiF XRD with Copper Target and Ni filter}
+\end{center}
+This comes as a surprise for us as
+\begin{enumerate}
+	\item There is no (1 1 1) band or (2 2 2) band in the filtered one
+	\item There are bands of only one kind predominant, that is the (h,0,0) type bands. We present the combined two graphs together for a better inference
+		\begin{center}
+		\includegraphics[width=10 cm]{comb1.png}\\
+		\textit{Combined spectrum of LiF XRD and Copper Target, with and without filter}
+	\end{center}
+\end{enumerate}
+
+\subsection*{Inferences}
+\begin{itemize}
+	\item The presence of just (h,0,0) bands should imply the crystal lattice is oriented in a single direction, hence it is a mono-crystalline solid.
+	\item We can find out the wavelength of the X-Ray with this spectrum.
+	We know\\
+	\begin{equation*}
+		2dsin\theta=n\lambda
+	\end{equation*}
+	We have 
+	\[d=\frac{a}{\sqrt{h^2+k^2+l^2}}\]
+	We have a to be 402 pm or 4.02 {\AA}  which is the lattice constant of LiF.
+	Calculating the $\lambda$ of the X-Ray, we get
+	\begin{align*}
+		\lambda &= \frac{2\times4.02\times10^{-10}}{\sqrt{2^2+0^2+0^2}} sin(44.8/2)\\
+		\lambda &= 1.531 {\AA}
+	\end{align*}
+	The uncertainty stems up from the least count of the machine (0.2 degrees). Accounting that\\
+	\textbf{$\lambda$ = 1.531 $\pm$ 0.007 \AA}
+		\item So the line which we incorrectly marked as (1 1 1) was actually the $K_{\beta}$ line, the major one being the $K_{\alpha}$ line. Doing the similar calculations for the $K_{\beta}$  line, we get
+			\begin{align*}
+			\lambda &= \frac{2\times4.02\times10^{-10}}{\sqrt{2^2+0^2+0^2}} sin(40.2/2)\\
+			\lambda &= 1.381 {\AA}
+		\end{align*}
+	With uncertainty, \textbf{$\lambda$ = 1.381 $\pm$ 0.007 \AA}
+	Now finally marking both the spectrum with the correct markings
+	\begin{center}
+	\includegraphics[width=10cm]{a2.png}
+	\end{center}
+\item The role of the filter is that it shunts away the $K_{\beta}$ line, hence we get only the $K_{\alpha} $ spectrum.
+	\end{itemize}
+
+\subsection*{Target:Molybdenum, Crystal:LiF, Filter: None}
+We obtain a spectrum like this\\
+\begin{center}
+	\includegraphics[width=10 cm]{Mo Target, LiF crystal, No Filter.png}\\
+	\textit{Spectrum of LiF XRD with Copper Target and no filter}
+\end{center}
+We try to match it with the table given to us
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		2 $\theta$ & Intensity & h & k & l \\
+		\hline
+		17.548 & 95 & 1 & 1 & 1 \\
+		\hline
+		20.295 & 100 & 2 & 0 & 0 \\
+		\hline
+		28.843 & 48 & 2 & 2 & 0 \\
+		\hline
+		33.971 & 10 & 3 & 1 & 1 \\
+		\hline
+		35.525 & 11 & 2 & 2 & 2 \\
+		\hline
+		41.251 & 3 & 4 & 0 & 0 \\
+		\hline
+		45.146 & 4 & 3 & 3 & 1 \\
+		\hline
+		46.387 & 14 & 4 & 2 & 0 \\
+		\hline
+		51.119 & 13 & 4 & 2 & 2 \\
+		\hline
+	\end{tabular}\\
+	\textit{2$\theta$ vs Intensity data for Lithium Fluoride}
+\end{center}
+At the first thought, it seems like the 38.696, 44.996, to an extent 82.998 and 99.628 bands are visible. So we mark that.
+\begin{center}
+	\includegraphics[width=10 cm]{a1.png}\\
+	\textit{Marked spectrum of LiF XRD with Copper Target and no filter}
+\end{center}
+
+\subsection*{Target:Molybdenum, Crystal:LiF, Filter:Ni}
+We obtain a spectrum like this\\
+\begin{center}
+	\includegraphics[width=10 cm]{Cu Target, LiF crystal, Ni Filter.png}\\
+	\textit{Spectrum of LiF XRD with Copper Target and Ni filter}
+\end{center}
+This comes as a surprise for us as
+\begin{enumerate}
+	\item There is no (1 1 1) band or (2 2 2) band in the filtered one
+	\item There are bands of only one kind predominant, that is the (h,0,0) type bands. We present the combined two graphs together for a better inference
+	\begin{center}
+		\includegraphics[width=10 cm]{comb1.png}\\
+		\textit{Combined spectrum of LiF XRD and Copper Target, with and without filter}
+	\end{center}
+\end{enumerate}
+
+\subsection*{Inferences}
+\begin{itemize}
+	\item The presence of just (h,0,0) bands should imply the crystal lattice is oriented in a single direction, hence it is a mono-crystalline solid.
+	\item We can find out the wavelength of the X-Ray with this spectrum.
+	We know\\
+	\begin{equation*}
+		2dsin\theta=n\lambda
+	\end{equation*}
+	We have 
+	\[d=\frac{a}{\sqrt{h^2+k^2+l^2}}\]
+	We have a to be 402 pm or 4.02 {\AA}  which is the lattice constant of LiF.
+	Calculating the $\lambda$ of the X-Ray, we get
+	\begin{align*}
+		\lambda &= \frac{2\times4.02\times10^{-10}}{\sqrt{2^2+0^2+0^2}} sin(44.8/2)\\
+		\lambda &= 1.531 {\AA}
+	\end{align*}
+	The uncertainty stems up from the least count of the machine (0.2 degrees). Accounting that\\
+	\textbf{$\lambda$ = 1.531 $\pm$ 0.007 \AA}
+	\item So the line which we incorrectly marked as (1 1 1) was actually the $K_{\beta}$ line, the major one being the $K_{\alpha}$ line. Doing the similar calculations for the $K_{\beta}$  line, we get
+	\begin{align*}
+		\lambda &= \frac{2\times4.02\times10^{-10}}{\sqrt{2^2+0^2+0^2}} sin(40.2/2)\\
+		\lambda &= 1.381 {\AA}
+	\end{align*}
+	With uncertainty, \textbf{$\lambda$ = 1.381 $\pm$ 0.007 \AA}
+	Now finally marking both the spectrum with the correct markings
+	\begin{center}
+		\includegraphics[width=10cm]{a2.png}
+	\end{center}
+	\item The role of the filter is that it shunts away the $K_{\beta}$ line, hence we get only the $K_{\alpha} $ spectrum.
+\end{itemize}
+
+
 \end{document}
