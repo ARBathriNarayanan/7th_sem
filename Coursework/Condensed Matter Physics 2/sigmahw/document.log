@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  13 NOV 2024 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  21 NOV 2024 08:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,33 +234,122 @@ Overfull \hbox (31.06322pt too wide) in paragraph at lines 23--29
 [] []
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./sigma1.png> <./sigma2.png>]
-(./document.aux) ) 
+<sigma3.png, id=21, 580.1675pt x 452.69125pt>
+File: sigma3.png Graphic file (type png)
+<use sigma3.png>
+Package pdftex.def Info: sigma3.png  used on input line 32.
+(pdftex.def)             Requested size: 284.52756pt x 222.00716pt.
+<sigma4.png, id=22, 580.1675pt x 452.69125pt>
+File: sigma4.png Graphic file (type png)
+<use sigma4.png>
+Package pdftex.def Info: sigma4.png  used on input line 33.
+(pdftex.def)             Requested size: 284.52756pt x 222.00716pt.
+<sigma5.png, id=23, 600.2425pt x 457.71pt>
+File: sigma5.png Graphic file (type png)
+<use sigma5.png>
+Package pdftex.def Info: sigma5.png  used on input line 34.
+(pdftex.def)             Requested size: 284.52756pt x 216.96753pt.
+<sigma6.png, id=24, 661.47125pt x 447.6725pt>
+File: sigma6.png Graphic file (type png)
+<use sigma6.png>
+Package pdftex.def Info: sigma6.png  used on input line 38.
+(pdftex.def)             Requested size: 184.9429pt x 125.16301pt.
+<sigma7.png, id=25, 605.26125pt x 449.68pt>
+File: sigma7.png Graphic file (type png)
+<use sigma7.png>
+Package pdftex.def Info: sigma7.png  used on input line 39.
+(pdftex.def)             Requested size: 184.9429pt x 137.40263pt.
+<sigma8.png, id=26, 605.26125pt x 449.68pt>
+File: sigma8.png Graphic file (type png)
+<use sigma8.png>
+Package pdftex.def Info: sigma8.png  used on input line 40.
+(pdftex.def)             Requested size: 184.9429pt x 137.40263pt.
+<sigma9.png, id=27, 605.26125pt x 449.68pt>
+File: sigma9.png Graphic file (type png)
+<use sigma9.png>
+Package pdftex.def Info: sigma9.png  used on input line 41.
+(pdftex.def)             Requested size: 184.9429pt x 137.40263pt.
+<sigma10.png, id=28, 605.26125pt x 449.68pt>
+File: sigma10.png Graphic file (type png)
+<use sigma10.png>
+Package pdftex.def Info: sigma10.png  used on input line 42.
+(pdftex.def)             Requested size: 184.9429pt x 137.40263pt.
+<sigma11.png, id=29, 645.41125pt x 452.69125pt>
+File: sigma11.png Graphic file (type png)
+<use sigma11.png>
+Package pdftex.def Info: sigma11.png  used on input line 43.
+(pdftex.def)             Requested size: 184.9429pt x 129.716pt.
+<sigma12.png, id=30, 566.115pt x 451.6875pt>
+File: sigma12.png Graphic file (type png)
+<use sigma12.png>
+Package pdftex.def Info: sigma12.png  used on input line 44.
+(pdftex.def)             Requested size: 184.9429pt x 147.56172pt.
+<sigma13.png, id=31, 571.13374pt x 450.68375pt>
+File: sigma13.png Graphic file (type png)
+<use sigma13.png>
+Package pdftex.def Info: sigma13.png  used on input line 45.
+(pdftex.def)             Requested size: 184.9429pt x 145.94095pt.
+<sigma14.png, id=32, 566.115pt x 451.6875pt>
+File: sigma14.png Graphic file (type png)
+<use sigma14.png>
+Package pdftex.def Info: sigma14.png  used on input line 46.
+(pdftex.def)             Requested size: 184.9429pt x 147.56172pt.
+
+Overfull \hbox (19.4473pt too wide) in paragraph at lines 38--47
+[] [] [] 
+ []
+
+
+Overfull \hbox (19.4473pt too wide) in paragraph at lines 38--47
+[] [] [] 
+ []
+
+
+Overfull \hbox (19.4473pt too wide) in paragraph at lines 38--47
+[] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--47
+
+ []
+
+[2 <./sigma3.png> <./sigma4.png> <./sigma5.png>] [3 <./sigma6.png> <./sigma7.pn
+g> <./sigma8.png> <./sigma9.png> <./sigma10.png> <./sigma11.png> <./sigma12.png
+> <./sigma13.png> <./sigma14.png>] (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 2825 strings out of 476034
- 41994 string characters out of 5792854
+ 2913 strings out of 476034
+ 43290 string characters out of 5792854
  1857388 words of memory out of 6000000
- 23280 multiletter control sequences out of 15000+600000
- 520895 words of font info for 54 fonts, out of 8000000 for 9000
+ 23354 multiletter control sequences out of 15000+600000
+ 522440 words of font info for 56 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 57i,9n,62p,230b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm2074.pfb>
-Output written on document.pdf (1 page, 152211 bytes).
+ 57i,9n,62p,230b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on document.pdf (3 pages, 425933 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

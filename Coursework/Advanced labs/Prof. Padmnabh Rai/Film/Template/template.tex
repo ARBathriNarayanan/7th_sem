@@ -3,7 +3,9 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multirow}
 \geometry{margin= 1.5 cm}
+
 \begin{document}
 	\input{templatetitle}
 	\section*{Objectives:}
@@ -13,8 +15,6 @@
 	\item Chromium and copper thin film deposition on cover glass slips using electron-beam and
 	thermal evaporation techniques, respectively.
 	\item Thickness determination of the deposited thin films using a profilometer.
-	\item To measure the resistivity of the thin films using the Four-probe or Van der Pauw
-		method.
 	\end{enumerate}
 	\section*{Theory:}
 	\begin{enumerate}
@@ -39,8 +39,43 @@
 		
 	\end{enumerate}
 	\section*{Observations:}
-	\begin{center}
+	\subsection*{Electron beam evaporation}
+\begin{center}
+	\begin{tabular}{|c|cccccc|}
+		\hline
+		\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Base Vaccum \\ (mBar)\end{tabular}} & \multicolumn{6}{c|}{Evaporation beam condition}                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ \cline{2-7} 
+		& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Source\\ Material\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Emission\\ Current(mA)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Filament current \\ (A)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}DC Output\\ Voltage(kV)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Deposition \\ rate (nm/s)\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Thickness by\\ QCM (nm)\end{tabular} \\ \hline
+		(8.8      $\pm$ 0.1) $\times 10^{-7}$                                                                   & \multicolumn{1}{c|}{Cr}                                                        & \multicolumn{1}{c|}{12 $\pm$ 1}                                                             & \multicolumn{1}{c|}{14.5 $\pm$ 0.1}                                                            & \multicolumn{1}{c|}{7.36 $\pm$ 0.01}                                                            & \multicolumn{1}{c|}{0.40 $\pm$ 0.01}                                                              & 5 $\pm$ 0.8                                                           \\ \hline
+	\end{tabular}
+\end{center}
 
-	\end{center}
+	\subsection*{Thermal evaporation}
+\begin{center}
+		\begin{tabular}{|c|cclccc|}
+			\hline
+			\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Base Vaccum \\ (mBar)\end{tabular}} & \multicolumn{6}{c|}{Evaporation beam condition}                                                                                                                                                                                                                                                                                                                                                                \\ \cline{2-7} 
+			& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Source\\ Material\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Emission current \\ (A)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Voltage\\ (kV)\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Deposition \\ rate (nm/s)\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Thickness by\\ QCM (nm)\end{tabular} \\ \hline
+			(1.2  $\pm$0.1) $\times10^{-6}$                                                                         & \multicolumn{1}{c|}{Cu}                                                        & \multicolumn{2}{c|}{112.0 $\pm$ 1.5}                                                           & \multicolumn{1}{c|}{40.5 $\pm$ 1}                                                   & \multicolumn{1}{c|}{0.65 $\pm$ 0.05}                                                              & 45 $\pm$ 1.3                                                             \\ \hline
+		\end{tabular}
+\end{center}
 
+\subsection*{Calibration factor}
+
+\[ \text{Calibration factor (C.F)}= \frac{\text{Thickness obtained in the Profilometer}}{\text{Thickness expected}}\]
+
+Thickness obtained in the Profilometer = $54 \pm 1 $ nm
+
+\[ \text{Calibration factor (C.F)}= \frac{54}{50} = 1.08\]
+\[\text{Error in Calibration factor }= \frac{\delta a}{a}+\frac{\delta b + \delta c}{b+c}\]
+Where a is measurement relating to profilometer, b is measurement relating to electron beam and c is measurement relating to thermal evaporation.
+\[\delta (C.F) =  \frac{1}{54}+\frac{0.8 + 1.3}{50}\]
+\[\delta (C.F) =  0.06\]
+
+\section*{Results}
+\begin{itemize}
+	\item We have successfully made a film of Chromium-Copper deposition using Electron beam and Thermal evaporation techniques.
+	\item We have used $5\pm 0.8$ nm thickness for Chromium and $45 \pm 1.3$ nm for Copper to give roughly $50 \pm 2.1$ nm thickness of film. 
+	\item The calibration factor that can be used for further studies is $1.08 \pm 0.06$ 
+	\item \textbf{Note: }The errors for thickness in electron beam was done by measuring the time taken to close the shutter and reaction time, multiplied by the rate of deposition.
+\end{itemize}
 \end{document}
