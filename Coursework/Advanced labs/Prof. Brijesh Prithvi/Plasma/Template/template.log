@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  24 NOV 2024 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  25 NOV 2024 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,7 +365,7 @@ Package hyperref Info: Link coloring OFF on input line 7.
 \openout3 = `template.out'.
 
  (./templatetitle.tex
-<cebs.jpg, id=64, 200.75pt x 200.75pt>
+<cebs.jpg, id=60, 200.75pt x 200.75pt>
 File: cebs.jpg Graphic file (type jpg)
 <use cebs.jpg>
 Package pdftex.def Info: cebs.jpg  used on input line 27.
@@ -396,12 +396,12 @@ Overfull \hbox (35.31416pt too wide) in paragraph at lines 26--36
  [] 
  []
 
-<plasma1.png, id=106, 440.64626pt x 273.02pt>
+<plasma1.png, id=101, 440.64626pt x 273.02pt>
 File: plasma1.png Graphic file (type png)
 <use plasma1.png>
 Package pdftex.def Info: plasma1.png  used on input line 37.
 (pdftex.def)             Requested size: 284.52756pt x 176.29443pt.
-<plasma2.png, id=108, 440.64626pt x 273.02pt>
+<plasma2.png, id=103, 440.64626pt x 273.02pt>
 File: plasma2.png Graphic file (type png)
 <use plasma2.png>
 Package pdftex.def Info: plasma2.png  used on input line 54.
@@ -409,7 +409,7 @@ Package pdftex.def Info: plasma2.png  used on input line 54.
 [3
 
  <./plasma1.png>]
-<plasma3.png, id=114, 440.64626pt x 273.02pt>
+<plasma3.png, id=109, 440.64626pt x 273.02pt>
 File: plasma3.png Graphic file (type png)
 <use plasma3.png>
 Package pdftex.def Info: plasma3.png  used on input line 71.
@@ -419,7 +419,7 @@ Overfull \hbox (35.31416pt too wide) in paragraph at lines 60--72
  [] 
  []
 
-<plasma4.png, id=115, 440.64626pt x 273.02pt>
+<plasma4.png, id=110, 440.64626pt x 273.02pt>
 File: plasma4.png Graphic file (type png)
 <use plasma4.png>
 Package pdftex.def Info: plasma4.png  used on input line 88.
@@ -431,22 +431,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
 [5 <./plasma4.png>]
 Chapter 3.
-<VvsP0.2N.png, id=134, 481.8pt x 361.35pt>
+<VvsP0.2N.png, id=130, 481.8pt x 361.35pt>
 File: VvsP0.2N.png Graphic file (type png)
 <use VvsP0.2N.png>
 Package pdftex.def Info: VvsP0.2N.png  used on input line 134.
 (pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
-<P0.64VAr.png, id=135, 481.8pt x 361.35pt>
+<P0.64VAr.png, id=131, 481.8pt x 361.35pt>
 File: P0.64VAr.png Graphic file (type png)
 <use P0.64VAr.png>
 Package pdftex.def Info: P0.64VAr.png  used on input line 138.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<P0.71V(anode)Ar.png, id=136, 481.8pt x 361.35pt>
+<P0.71V(anode)Ar.png, id=132, 481.8pt x 361.35pt>
 File: P0.71V(anode)Ar.png Graphic file (type png)
 <use P0.71V(anode)Ar.png>
 Package pdftex.def Info: P0.71V(anode)Ar.png  used on input line 139.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<PvsV480N.png, id=137, 481.8pt x 361.35pt>
+<PvsV480N.png, id=133, 481.8pt x 361.35pt>
 File: PvsV480N.png Graphic file (type png)
 <use PvsV480N.png>
 Package pdftex.def Info: PvsV480N.png  used on input line 144.
@@ -454,17 +454,17 @@ Package pdftex.def Info: PvsV480N.png  used on input line 144.
 [6
 
  <./VvsP0.2N.png> <./P0.64VAr.png> <./P0.71V(anode)Ar.png>]
-<PV555Ar.png, id=148, 481.8pt x 361.35pt>
+<PV555Ar.png, id=144, 481.8pt x 361.35pt>
 File: PV555Ar.png Graphic file (type png)
 <use PV555Ar.png>
 Package pdftex.def Info: PV555Ar.png  used on input line 148.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<PV329(anode)Armod.png, id=149, 481.04718pt x 328.97906pt>
+<PV329(anode)Armod.png, id=145, 481.04718pt x 328.97906pt>
 File: PV329(anode)Armod.png Graphic file (type png)
 <use PV329(anode)Armod.png>
 Package pdftex.def Info: PV329(anode)Armod.png  used on input line 149.
 (pdftex.def)             Requested size: 256.0748pt x 175.1261pt.
-<nitrogen_ring_anode.png, id=150, 481.8pt x 361.35pt>
+<nitrogen_ring_anode.png, id=146, 481.8pt x 361.35pt>
 File: nitrogen_ring_anode.png Graphic file (type png)
 <use nitrogen_ring_anode.png>
 Package pdftex.def Info: nitrogen_ring_anode.png  used on input line 154.
@@ -473,13 +473,13 @@ Package pdftex.def Info: nitrogen_ring_anode.png  used on input line 154.
 ring_anode.png>]
 (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 0BD9AC8E8BE79D041F491EEB30DB5F5B;3127.
+(rerunfilecheck)             Checksum: 7D65D5253F6D0F34888F98C63031B361;2855.
  ) 
 Here is how much of TeX's memory you used:
- 9456 strings out of 476034
- 148293 string characters out of 5792854
+ 9455 strings out of 476034
+ 148269 string characters out of 5792854
  1866388 words of memory out of 6000000
- 29767 multiletter control sequences out of 15000+600000
+ 29766 multiletter control sequences out of 15000+600000
  516423 words of font info for 46 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  75i,7n,76p,340b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -496,10 +496,10 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on template.pdf (9 pages, 292339 bytes).
+Output written on template.pdf (9 pages, 292303 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
+ 231 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

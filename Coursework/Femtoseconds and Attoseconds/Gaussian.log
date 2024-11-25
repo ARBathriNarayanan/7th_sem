@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  24 NOV 2024 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  24 NOV 2024 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,53 +949,53 @@ Package hyperref Warning: Option `pdfsubject' has already been used,
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-28.
+32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-28.
+32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-28.
+32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 28.
+(Font)              <10.95> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 28.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 28.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 28.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 32.
 
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
@@ -1012,7 +1012,7 @@ Overfull \hbox (75.94376pt too wide) has occurred while \output is active
 
 [3
 
-]
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
  []
@@ -1083,13 +1083,19 @@ Overfull \hbox (75.94376pt too wide) has occurred while \output is active
 [13
 
 ]
+<gaussian6.png, id=385, 762.85pt x 536.0025pt>
+File: gaussian6.png Graphic file (type png)
+<use gaussian6.png>
+Package pdftex.def Info: gaussian6.png  used on input line 111.
+(pdftex.def)             Requested size: 170.71652pt x 119.94923pt.
+
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
  []
 
 [14
 
-]
+ <./gaussian6.png>]
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
  []
@@ -1097,13 +1103,19 @@ Overfull \hbox (75.94376pt too wide) has occurred while \output is active
 [15
 
 ]
+<gaussian7.png, id=440, 363.3575pt x 439.6425pt>
+File: gaussian7.png Graphic file (type png)
+<use gaussian7.png>
+Package pdftex.def Info: gaussian7.png  used on input line 122.
+(pdftex.def)             Requested size: 170.71652pt x 206.5582pt.
+
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
  []
 
 [16
 
-]
+ <./gaussian7.png>]
 Overfull \hbox (75.94376pt too wide) has occurred while \output is active
  [][]  \T1/lmss/m/n/6 ([])  
  []
@@ -1132,6 +1144,20 @@ Overfull \hbox (75.94376pt too wide) has occurred while \output is active
 [20
 
 ]
+Overfull \hbox (75.94376pt too wide) has occurred while \output is active
+ [][]  \T1/lmss/m/n/6 ([])  
+ []
+
+[21
+
+]
+Overfull \hbox (75.94376pt too wide) has occurred while \output is active
+ [][]  \T1/lmss/m/n/6 ([])  
+ []
+
+[22
+
+]
 \tf@nav=\write6
 \openout6 = `Gaussian.nav'.
 
@@ -1146,26 +1172,27 @@ Package rerunfilecheck Info: File `Gaussian.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23160 strings out of 476034
- 450489 string characters out of 5792854
- 1860388 words of memory out of 6000000
- 43072 multiletter control sequences out of 15000+600000
+ 23238 strings out of 476034
+ 452251 string characters out of 5792854
+ 1866388 words of memory out of 6000000
+ 43142 multiletter control sequences out of 15000+600000
  558634 words of font info for 63 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 128i,15n,122p,410b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/lm/lmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/lm/lmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss17
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/
-lmsy8.pfb>
-Output written on Gaussian.pdf (20 pages, 179312 bytes).
+ 128i,15n,122p,410b,643s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/lm/lmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/lm/lmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/lm/lmsso10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/
+lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Gaussian.pdf (22 pages, 668786 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 563 compressed objects within 6 object streams
- 41 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 623 compressed objects within 7 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
