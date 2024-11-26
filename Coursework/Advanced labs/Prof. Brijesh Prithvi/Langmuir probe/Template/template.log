@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  24 NOV 2024 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  26 NOV 2024 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,31 +373,68 @@ Package pdftex.def Info: cebs.jpg  used on input line 27.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cebs.jpg>])
+<voltage.png, id=13, 481.8pt x 361.35pt>
+File: voltage.png Graphic file (type png)
+<use voltage.png>
+Package pdftex.def Info: voltage.png  used on input line 22.
+(pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
+<variationpressure.png, id=14, 481.8pt x 361.35pt>
+File: variationpressure.png Graphic file (type png)
+<use variationpressure.png>
+Package pdftex.def Info: variationpressure.png  used on input line 27.
+(pdftex.def)             Requested size: 481.79881pt x 361.34912pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \end{document}
-                    [1] (./template.aux)
+l.28 	V
+       -I characteristics of the Plasma as we vary pressure. [1 <./voltage.png>
+]
+<flipping.png, id=25, 481.8pt x 361.35pt>
+File: flipping.png Graphic file (type png)
+<use flipping.png>
+Package pdftex.def Info: flipping.png  used on input line 35.
+(pdftex.def)             Requested size: 481.79881pt x 361.34912pt.
+ [2 <./variationpressure.png>]
+<variationbias.png, id=38, 481.8pt x 361.35pt>
+File: variationbias.png Graphic file (type png)
+<use variationbias.png>
+Package pdftex.def Info: variationbias.png  used on input line 41.
+(pdftex.def)             Requested size: 481.79881pt x 361.34912pt.
+ [3 <./flipping.png>]
+<variationresistance.png, id=45, 481.8pt x 361.35pt>
+File: variationresistance.png Graphic file (type png)
+<use variationresistance.png>
+Package pdftex.def Info: variationresistance.png  used on input line 47.
+(pdftex.def)             Requested size: 481.79881pt x 361.34912pt.
+ [4 <./variationbias.png>]
+[5 <./variationresistance.png>] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9315 strings out of 476034
- 146121 string characters out of 5792854
+ 9366 strings out of 476034
+ 147037 string characters out of 5792854
  1853388 words of memory out of 6000000
- 29671 multiletter control sequences out of 15000+600000
- 514104 words of font info for 38 fonts, out of 8000000 for 9000
+ 29709 multiletter control sequences out of 15000+600000
+ 515163 words of font info for 42 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,5n,76p,259b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,76p,259b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on template.pdf (2 pages, 66380 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb>
+Output written on template.pdf (6 pages, 154324 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

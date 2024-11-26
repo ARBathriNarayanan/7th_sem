@@ -16,8 +16,22 @@
 	\section*{Apparatus required}
 	X Ray diffractometer, a crystal of Li-F, Cu and Mo metal targets, Computer for analysis and measuring.
 	\section*{Theory}
-	X Ray diffraction is a technique used to find atomic and molecular structures of a crystal. The atoms of a crystal, by virtue of their uniform spacing, cause an interference pattern of the waves present in an incident beam of X-rays. 
-	
+A strong method for figuring out a crystalline material's atomic and molecular structure is X-ray diffraction, which is employed in materials science and crystallography. X-rays experience diffraction when they come into contact with a crystalline material, producing a distinctive pattern of dispersed X-rays. Details regarding the arrangement of atoms or molecules within the crystal are contained in this pattern.\\
+In most cases, X-rays produced by an X-ray tube are used for X-ray diffraction. An X-ray tube accelerates high-energy electrons before they crash with a metal target, such molybdenum or copper. These collisions cause X-rays to be released.\\
+Certain wavelengths of distinctive X-rays are generated, which are dictated by the target material's electron transitions. The energy of these X-rays is appropriate for diffraction experiments.\\
+We mainly use the \textbf{Bragg's law of diffraction} which states
+\[2dsin\theta = n\lambda\]
+Where\\
+\begin{itemize}
+	\item $\lambda$ is the incident wavelength
+	\item n is the order of the diffraction peak
+	\item $\theta$ is the angle of incidence
+	\item d is the spacing between the lattice planes
+	\[d=\frac{a}{\sqrt{h^2+k^2+l^2}}\]
+	\begin{center}
+		\includegraphics[width=10cm]{bragg.jpg}
+	\end{center}
+\end{itemize}
 	\section*{Observations}
 	\subsection*{Target:Copper, Crystal:LiF, Filter: None}
 	We obtain a spectrum like this\\
@@ -195,10 +209,115 @@ Now we know the wavelength of the X-Ray (1.531 $\pm$ 0.007 {\AA}) when a copper 
 \begin{center}
 	\includegraphics[width=10 cm]{cucu.png}
 \end{center}
-
+We refer the table for Copper
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		2$\theta$ & Intensity & h & k & l \\
+		\hline
+		43.297 & 100 & 1 & 1 & 1 \\
+		\hline
+		50.433 & 46 & 2 & 0 & 0 \\
+		\hline
+		74.130 & 20 & 2 & 2 & 0 \\
+		\hline
+		89.931 & 17 & 3 & 1 & 1 \\
+		\hline
+		95.139 & 5 & 2 & 2 & 2 \\
+		\hline
+		116.919 & 3 & 4 & 0 & 0 \\
+		\hline
+		136.507 & 9 & 3 & 3 & 1 \\
+		\hline
+		144.714 & 8 & 4 & 2 & 0 \\
+		\hline
+	\end{tabular}
+\end{center}
+Now we try labelling the peaks, there is a peak at 43.8, 50.8. The other peaks are shadowed by noise.
+\begin{center}
+	\includegraphics[width=10 cm]{cucu1.png}
+\end{center}
+Since there are two different planes present, this is a polycrystalline sample. Now we try to find the lattice parameter.
+	\begin{equation*}
+	2dsin\theta=n\lambda
+\end{equation*}
+We have 
+\[d=\frac{a}{\sqrt{h^2+k^2+l^2}}\]
+So we can rearrange as
+\[d=\frac{n\lambda}{2sin\theta}\]
+\[a=\frac{\lambda}{2sin\theta}\times\sqrt{h^2+k^2+l^2}\]
+Plugging in $\lambda=1.531{\AA}, \theta=21.9^{\circ}, \sqrt{h^2+k^2+l^2} =\sqrt{3}$.
+\[a=3.554{\AA}\]
+Plugging in $\lambda=1.531{\AA}, \theta=25.4^{\circ}, \sqrt{h^2+k^2+l^2} =\sqrt{4}$
+\[a=3.569{\AA}\]
+Error obtained = $\pm$ 0.003{\AA}
 \subsection*{Target:Copper, Crystal:Si, Filter: Ni}
 Next we try to analyse the Silicon crystal given to us.
 \begin{center}
 	\includegraphics[width=10cm]{cusi.png}
 \end{center}
+At the first sight, the right side of spectrum is noisy, suggesting contamination. Which was suspected as the Silicon crystal looked dirty. Looking at the database, we have peaks visible at 27.8 and 69.8. All the other potential peaks are subsumed by noise and impurities.\\
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		2$\theta$ & Intensity & h & k & l \\
+		\hline
+		28.443 & 100 & 1 & 1 & 1 \\
+		\hline
+		47.304 & 55 & 2 & 2 & 0 \\
+		\hline
+		56.122 & 30 & 3 & 1 & 0 \\
+		\hline
+		69.132 & 6 & 4 & 0 & 0 \\
+		\hline
+		76.379 & 11 & 3 & 3 & 1 \\
+		\hline
+		88.029 & 12 & 4 & 2 & 2 \\
+		\hline
+		 94.957 & 6 & 5 & 1 & 1 \\
+		\hline
+	\end{tabular}\\
+	Si database
+	The higher values of $2\theta$ are excluded due to instrument measuring only till $2\theta=100$
+\end{center}
+\begin{center}
+	\includegraphics[width=10 cm]{cusi1.png}
+\end{center}
+Since there are two different planes present, this is a polycrystalline solid.Now we try to find the lattice parameter.
+\begin{equation*}
+	2dsin\theta=n\lambda
+\end{equation*}
+We have 
+\[d=\frac{a}{\sqrt{h^2+k^2+l^2}}\]
+So we can rearrange as
+\[d=\frac{n\lambda}{2sin\theta}\]
+\[a=\frac{\lambda}{2sin\theta}\times\sqrt{h^2+k^2+l^2}\]
+ Plugging in $\lambda=1.531{\AA}, \theta=13.9, \sqrt{h^2+k^2+l^2} =\sqrt{3}$.
+ \[a=5.519{\AA}\]
+ Plugging in $\lambda=1.531{\AA}, \theta=34.9, \sqrt{h^2+k^2+l^2} =\sqrt{16}$
+ \[a=5.35{\AA}\]
+ Error obtained = $\pm$ 0.003{\AA}
+  \section*{Result}
+ \begin{enumerate}
+ 	\item The X-Ray wavelength of Copper target is 
+ 	\begin{itemize}
+ 		\item 	$K_{\alpha}$\textbf{= 1.531 $\pm$ 0.007 \AA}
+ 		\item 	$K_{\beta}$\textbf{= 1.381 $\pm$ 0.007 \AA}
+ 	\end{itemize}
+\item The X-Ray wavelength of Molybdenum target is 
+ 	\begin{itemize}
+ 		\item 	$K_{\alpha}$\textbf{= 0.698 $\pm$ 0.007 \AA}
+ 		\item 	$K_{\beta}$\textbf{= 0.615 $\pm$ 0.007 \AA}
+ 	\end{itemize}
+ 	\item We analysed a Copper crystal (Supposedly FCC)
+\begin{enumerate}
+\item Lattice parameter for (h h h) plane = \textbf{= 3.554 $\pm$ 0.003 \AA}
+\item Lattice parameter for (h 0 0) plane = \textbf{= 3.569 $\pm$ 0.003 \AA}
+\end{enumerate}
+ 	\item We analysed an impure Silicon crystal (Supposedly Diamond)
+\begin{enumerate}
+	\item Lattice parameter for (h h h) plane = \textbf{= 5.519 $\pm$ 0.003 \AA}
+	\item Lattice parameter for (h 0 0) plane = \textbf{= 5.351 $\pm$ 0.003 \AA}
+\end{enumerate}
+ \end{enumerate}
 \end{document}
