@@ -17,6 +17,29 @@
 \end{enumerate}
 
 \section*{Theory:}
+An electric discharge, or an abrupt presence of electric current in the system, can occur in a gas system between two electrodes when an electric field of strength E is applied. When every charge carrier in the gas can produce at least one additional charge carrier during system motion before being neutralized, the discharge is said to be self-sustaining. Another name for this is the electrical breakdown point. Both ambient radioactive irradiation and short-wavelength electromagnetic radiation, which can ionize neutral atoms to produce electrons and positive ions, are common causes of electric discharge. The gas is permanently ionized (plasma) if these reactions are self-sustaining.\\
+The electrons and positive ions created during the ionization of neutral gas atoms, which travel under an external electric field, are the source of electric currents in a gas. In order to maintain a consistent current between the two electrodes, such a field provides the charge carriers with a drift velocity. The primary cause of atom ionization is the electrons, which have significantly higher average kinetic energies due to their lighter mass than ions. The ions move toward the cathode (- electrode) and the electrons toward the anode (+ electrode) in an electric field.\\
+There are two important processes in the gas system which give rise to electrical breakdown.\\
+Ionization: An entering electron will be given energy to separate from the gas molecule and form a positive molecular ion if its energy is greater than the ionization energy of an electron in the gas molecule.\\
+Secondary electron generation: An electron will be ionized out of the cathode if the energy released from the recombination of a positive ion and an electron from the cathode surpasses the work function of an electron in the cathode's conduction band, which is defined as the energy difference between the vacuum and the electron band. The Auger effect is the name given to this phenomenon. Since more charge carriers are now being created, electrical breakdown happens as soon as this condition is satisfied.\\
+In this study, we carry out a straightforward examination of the electrical breakdown within a system of air molecules located between two parallel electrode plates, separated by a distance d. We maintain a low current to ensure that the temperature remains below the critical threshold, preventing thermionic emission from occurring. The strength of the electric field is also kept relatively weak to avoid excessive free electrons being emitted from the electrodes due to field emission. The use of parallel electrode plates helps to prevent corona discharge, which can arise from charge accumulation on sharp edges that create high potential gradients nearby.\\
+We have the Paschen curve formula
+\[V = \frac{Bpd}{ln\bigg(\frac{Apd}{ln(1+\gamma^{-1})}\bigg)}\]
+Minimizing, we get
+\[V_{min}=2.71828\frac{B}{A}ln(\gamma^{-1}+1)\]
+Where A and B are constants depending on the gas, and $\gamma$ is the second Townsend coefficient, which is the probability of an ion generating one secondary electron from the
+cathode that is in general dependent on the gas, electrode material and surface condition, the maximal
+number of secondary electrons generated from the maximal number of positive ions produced from an
+avalanche starting from the full distance d away from the cathode\\
+Then we use this theory to obtain the electron temperature as we vary pressure, voltage and gas. The intensity Iik of a spectral line,
+corresponding to the transition from an upper energy level k to a lower energy level i, is
+proportional to (hcAkinik)/$\rho$ki, where Iki is the observed wavelength, Aki is the transition
+probability for spontaneous emission and nk is the population of the excited states. Under the
+assumption of a Maxwell-Boltzmann distribution, the population of the excited states depends
+on the Boltzmann factor exp(-Ek/kTe) and the quantum degeneracy factor gk. Taking the
+logarithm gives a function that is linear in the upper energy Ek, i.e.,
+\[ln\bigg(\frac{\lambda_iI_i}{p_i}\bigg)=\frac{E_k}{kT}+C\]
+Where pi=gkAki
 
 \chapter{Study of Paschen curves}
 \section{Observations:}
@@ -158,6 +181,38 @@ We get approximate Townsend coefficient as
 \subsubsection{Finding the electron temperature}
 We find the electron temperature by using the formula
 \[ln\bigg(\frac{\lambda_iI_i}{p_i}\bigg)=\frac{E_k}{kT}+C\]
-We get the data
-\section*{References:}
+In Nitrogen as we vary the voltage, we get the electron temperatures as \\
+\begin{center}
+	\begin{tabular}{|c|c|}
+		\hline
+		Voltage &  Te(eV) \\
+		\hline
+		508 & 0.101 \\
+		\hline
+		550 & 0.115 \\
+		\hline
+		580 & 0.287 \\
+		\hline
+	\end{tabular}
+\end{center}
+As we vary the pressure, we get the electron temperatures as 
+\begin{center}
+	\begin{tabular}{|c|c|}
+		\hline
+		Voltage &  Te(eV) \\
+		\hline
+		0.55 & 0.15 \\
+		\hline
+		0.32 & 0.166 \\
+		\hline
+		0.7 & 0.89 \\
+		\hline
+		0.4&0.215\\
+		\hline
+	\end{tabular}
+\end{center}
+\section*{Inferences and results:}
+In case 1, we see that the electron temperature increases as we increase voltage, which is expected as we are supplying more energy for the breaking down of electrons.\\
+In case 2, we see that the electron temperature decreases and increases as we increase pressure, following the Paschen law.\\
+If we shift gas, to a more inert Argon, electron temperature increases as we now need some more energy to ionize the gas. Ar comes around the order of 0.5 eV.
 \end{document}

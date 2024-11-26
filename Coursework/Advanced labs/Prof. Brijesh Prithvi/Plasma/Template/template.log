@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  26 NOV 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  27 NOV 2024 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,100 +389,103 @@ l.10 \chapter
 Chapter 1.
 [2
 
-]
+] [3]
 Chapter 2.
 
-Overfull \hbox (35.31416pt too wide) in paragraph at lines 26--36
+Overfull \hbox (35.31416pt too wide) in paragraph at lines 49--59
  [] 
  []
 
-<plasma1.png, id=101, 440.64626pt x 273.02pt>
+<plasma1.png, id=110, 440.64626pt x 273.02pt>
 File: plasma1.png Graphic file (type png)
 <use plasma1.png>
-Package pdftex.def Info: plasma1.png  used on input line 37.
+Package pdftex.def Info: plasma1.png  used on input line 60.
 (pdftex.def)             Requested size: 284.52756pt x 176.29443pt.
-<plasma2.png, id=103, 440.64626pt x 273.02pt>
+<plasma2.png, id=112, 440.64626pt x 273.02pt>
 File: plasma2.png Graphic file (type png)
 <use plasma2.png>
-Package pdftex.def Info: plasma2.png  used on input line 54.
+Package pdftex.def Info: plasma2.png  used on input line 77.
 (pdftex.def)             Requested size: 284.52756pt x 176.29443pt.
-[3
+[4
 
  <./plasma1.png>]
-<plasma3.png, id=109, 440.64626pt x 273.02pt>
+<plasma3.png, id=118, 440.64626pt x 273.02pt>
 File: plasma3.png Graphic file (type png)
 <use plasma3.png>
-Package pdftex.def Info: plasma3.png  used on input line 71.
+Package pdftex.def Info: plasma3.png  used on input line 94.
 (pdftex.def)             Requested size: 284.52756pt x 176.29443pt.
 
-Overfull \hbox (35.31416pt too wide) in paragraph at lines 60--72
+Overfull \hbox (35.31416pt too wide) in paragraph at lines 83--95
  [] 
  []
 
-<plasma4.png, id=110, 440.64626pt x 273.02pt>
+<plasma4.png, id=119, 440.64626pt x 273.02pt>
 File: plasma4.png Graphic file (type png)
 <use plasma4.png>
-Package pdftex.def Info: plasma4.png  used on input line 88.
+Package pdftex.def Info: plasma4.png  used on input line 111.
 (pdftex.def)             Requested size: 284.52756pt x 176.29443pt.
-[4 <./plasma2.png> <./plasma3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+[5 <./plasma2.png> <./plasma3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-[5 <./plasma4.png>]
+[6 <./plasma4.png>]
 Chapter 3.
-<VvsP0.2N.png, id=130, 481.8pt x 361.35pt>
+<VvsP0.2N.png, id=135, 481.8pt x 361.35pt>
 File: VvsP0.2N.png Graphic file (type png)
 <use VvsP0.2N.png>
-Package pdftex.def Info: VvsP0.2N.png  used on input line 134.
+Package pdftex.def Info: VvsP0.2N.png  used on input line 157.
 (pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
-<P0.64VAr.png, id=131, 481.8pt x 361.35pt>
+<P0.64VAr.png, id=136, 481.8pt x 361.35pt>
 File: P0.64VAr.png Graphic file (type png)
 <use P0.64VAr.png>
-Package pdftex.def Info: P0.64VAr.png  used on input line 138.
+Package pdftex.def Info: P0.64VAr.png  used on input line 161.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<P0.71V(anode)Ar.png, id=132, 481.8pt x 361.35pt>
+<P0.71V(anode)Ar.png, id=137, 481.8pt x 361.35pt>
 File: P0.71V(anode)Ar.png Graphic file (type png)
 <use P0.71V(anode)Ar.png>
-Package pdftex.def Info: P0.71V(anode)Ar.png  used on input line 139.
+Package pdftex.def Info: P0.71V(anode)Ar.png  used on input line 162.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<PvsV480N.png, id=133, 481.8pt x 361.35pt>
+<PvsV480N.png, id=138, 481.8pt x 361.35pt>
 File: PvsV480N.png Graphic file (type png)
 <use PvsV480N.png>
-Package pdftex.def Info: PvsV480N.png  used on input line 144.
+Package pdftex.def Info: PvsV480N.png  used on input line 167.
 (pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
-[6
+[7
 
  <./VvsP0.2N.png> <./P0.64VAr.png> <./P0.71V(anode)Ar.png>]
-<PV555Ar.png, id=144, 481.8pt x 361.35pt>
+<PV555Ar.png, id=148, 481.8pt x 361.35pt>
 File: PV555Ar.png Graphic file (type png)
 <use PV555Ar.png>
-Package pdftex.def Info: PV555Ar.png  used on input line 148.
+Package pdftex.def Info: PV555Ar.png  used on input line 171.
 (pdftex.def)             Requested size: 256.0748pt x 192.06044pt.
-<PV329(anode)Armod.png, id=145, 481.04718pt x 328.97906pt>
+<PV329(anode)Armod.png, id=149, 481.04718pt x 328.97906pt>
 File: PV329(anode)Armod.png Graphic file (type png)
 <use PV329(anode)Armod.png>
-Package pdftex.def Info: PV329(anode)Armod.png  used on input line 149.
+Package pdftex.def Info: PV329(anode)Armod.png  used on input line 172.
 (pdftex.def)             Requested size: 256.0748pt x 175.1261pt.
-<nitrogen_ring_anode.png, id=146, 481.8pt x 361.35pt>
+<nitrogen_ring_anode.png, id=150, 481.8pt x 361.35pt>
 File: nitrogen_ring_anode.png Graphic file (type png)
 <use nitrogen_ring_anode.png>
-Package pdftex.def Info: nitrogen_ring_anode.png  used on input line 154.
+Package pdftex.def Info: nitrogen_ring_anode.png  used on input line 177.
 (pdftex.def)             Requested size: 284.52756pt x 213.39867pt.
- [7 <./PvsV480N.png> <./PV555Ar.png> <./PV329(anode)Armod.png>] [8 <./nitrogen_
-ring_anode.png>]
-(./template.aux)
+ [8 <./PvsV480N.png> <./PV555Ar.png> <./PV329(anode)Armod.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+[9 <./nitrogen_ring_anode.png>] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 7D65D5253F6D0F34888F98C63031B361;2855.
  ) 
 Here is how much of TeX's memory you used:
- 9456 strings out of 476034
- 148280 string characters out of 5792854
+ 9457 strings out of 476034
+ 148286 string characters out of 5792854
  1866388 words of memory out of 6000000
  29766 multiletter control sequences out of 15000+600000
  516423 words of font info for 46 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,7n,76p,340b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,76p,727b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -496,10 +499,10 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on template.pdf (9 pages, 294508 bytes).
+Output written on template.pdf (10 pages, 300975 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
