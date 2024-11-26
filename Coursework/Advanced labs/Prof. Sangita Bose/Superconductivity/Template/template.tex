@@ -12,25 +12,35 @@
 		\item To find the critical temperature of the given material using a cooling source (Liquid He is used)
 	\end{enumerate}
 	\section*{Apparatus required:}
-
+     Lock-In amplifier, Coil, Superconducting setup etc.
+     \begin{center}
+     	\includegraphics[width=5 cm]{lia5.jpg}
+     	\includegraphics[width=5 cm]{lia6.jpg}\\
+     	The schematic and actual setup of the experiment
+     \end{center}
 	\section*{Theory:}
 A lock-in amplifier can identify and analyze extremely tiny AC signals, as low as a few nanovolts, even when they are masked by noise sources that are millions of times larger. It isolates the signal component at a certain reference frequency and phase using a method known as phase-sensitive detection.
 Typically, lock-in amplifiers use a phase-locked loop (PLL) locked to an external frequency reference $\omega$  to create their own internal reference signal.
 \begin{center}
 	\includegraphics[width=10cm]{lia1.png}\\
 	Block diagram of a Lock-In amplifier\\
+	\vspace{1 cm}
 		\includegraphics[width=10cm]{lia2.jpg}\\
 		Signal processing of a Lock-In amplifier\\
-		\includegraphics[width=10cm]{lia3.png}\\
+		\includegraphics[width=13cm]{lia3.png}\\
 		Labeling of our Lock-In amplifier
 \end{center}
-Parameters
+\textbf{Parameters:}
 \begin{align*}
 	\text{In phase component}&=V_0cos\theta \\
 	\text{Out of phase component}&=V_0sin\theta \\
 	\text{Magnitude of signal}&=V_0\\
 	\text{Phase}&=arctan\big(\frac{Y}{X}\big)
 \end{align*}
+\begin{center}
+	\includegraphics[width=10cm]{lia4m.png}\\
+	Schematic diagram of the wire connections. Note that Lock In Amplifiers 1 and 2 are connected, and the terminals of the LIA are actually the A and B channels.
+\end{center}
 	\section*{Observations:}
 \subsection*{Finding the Resistance and Inductance of the given coil}
 We have the following data 
@@ -79,5 +89,12 @@ We perform the experiment and get the critical temperature plots as follows
 	\includegraphics[width=11cm]{plot2.png}\\
 	Plot of Mutual Inductance versus the temperature of both parts.
 \end{center}
-	We are getting the critical temperature of 10.410 K. But then we were expecting a critical temperature of 11.2 K. What is more surprising is that there is some deviation in the real and imaginary values, and in the imaginary part, the mutual inductance didn't rise back up.
+	We are getting the critical temperature of 11.572 K. What is more surprising is that there is some deviation in the real and imaginary values, and in the imaginary part, the mutual inductance didn't rise back up. This might be because the device didn't capture the  change after 14 K, after which it might have risen.
+	\\We also didn't analyse the cooling data as it had a lot of fluctuations in temperature. 
+	\section*{Result}
+	\begin{enumerate}
+		\item The Resistance of the coil is 0.292 $\pm$0.001 $\Omega$
+		\item The Inductance of the coil is 12 $\pm$ 6 $\mu$H
+		\item The critical temperature of the given material is 11.572 K
+	\end{enumerate}
 \end{document}

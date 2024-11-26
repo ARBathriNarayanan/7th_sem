@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  26 NOV 2024 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.7.25)  26 NOV 2024 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,72 +373,92 @@ Package pdftex.def Info: cebs.jpg  used on input line 27.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cebs.jpg>])
-<lia1.png, id=13, 709.65125pt x 184.69pt>
+<lia5.jpg, id=13, 3083.52pt x 4111.36pt>
+File: lia5.jpg Graphic file (type jpg)
+<use lia5.jpg>
+Package pdftex.def Info: lia5.jpg  used on input line 17.
+(pdftex.def)             Requested size: 142.26378pt x 189.64555pt.
+<lia6.jpg, id=14, 3083.52pt x 4111.36pt>
+File: lia6.jpg Graphic file (type jpg)
+<use lia6.jpg>
+Package pdftex.def Info: lia6.jpg  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 189.64555pt.
+<lia1.png, id=15, 709.65125pt x 184.69pt>
 File: lia1.png Graphic file (type png)
 <use lia1.png>
-Package pdftex.def Info: lia1.png  used on input line 20.
+Package pdftex.def Info: lia1.png  used on input line 25.
 (pdftex.def)             Requested size: 284.52756pt x 74.04941pt.
-<lia2.jpg, id=14, 311.46451pt x 168.20363pt>
+<lia2.jpg, id=16, 311.46451pt x 168.20363pt>
 File: lia2.jpg Graphic file (type jpg)
 <use lia2.jpg>
-Package pdftex.def Info: lia2.jpg  used on input line 22.
+Package pdftex.def Info: lia2.jpg  used on input line 28.
 (pdftex.def)             Requested size: 284.52756pt x 153.66869pt.
-<lia3.png, id=15, 810.02625pt x 407.5225pt>
+<lia3.png, id=17, 810.02625pt x 407.5225pt>
 File: lia3.png Graphic file (type png)
 <use lia3.png>
-Package pdftex.def Info: lia3.png  used on input line 24.
-(pdftex.def)             Requested size: 284.52756pt x 143.1449pt.
+Package pdftex.def Info: lia3.png  used on input line 30.
+(pdftex.def)             Requested size: 369.88582pt x 186.08838pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \begin{center}
-                    [1 <./lia1.png> <./lia2.jpg> <./lia3.png>]
-Overfull \hbox (39.61516pt too wide) in paragraph at lines 38--63
+l.31 		L
+        abeling of our Lock-In amplifier [1 <./lia5.jpg> <./lia6.jpg> <./lia1.p
+ng> <./lia2.jpg>]
+<lia4m.png, id=30, 830.10126pt x 539.01375pt>
+File: lia4m.png Graphic file (type png)
+<use lia4m.png>
+Package pdftex.def Info: lia4m.png  used on input line 41.
+(pdftex.def)             Requested size: 284.52756pt x 184.75092pt.
+
+Overfull \hbox (39.61516pt too wide) in paragraph at lines 48--73
  [] 
  []
 
-<ind.png, id=31, 1394.20876pt x 768.8725pt>
+[2 <./lia3.png> <./lia4m.png>]
+<ind.png, id=42, 1394.20876pt x 768.8725pt>
 File: ind.png Graphic file (type png)
 <use ind.png>
-Package pdftex.def Info: ind.png  used on input line 69.
+Package pdftex.def Info: ind.png  used on input line 79.
 (pdftex.def)             Requested size: 284.52756pt x 156.90422pt.
-<plot1.png, id=32, 607.26875pt x 341.275pt>
+<plot1.png, id=43, 607.26875pt x 341.275pt>
 File: plot1.png Graphic file (type png)
 <use plot1.png>
-Package pdftex.def Info: plot1.png  used on input line 78.
+Package pdftex.def Info: plot1.png  used on input line 88.
 (pdftex.def)             Requested size: 312.9803pt x 175.89137pt.
-<plot2.png, id=33, 607.26875pt x 341.275pt>
+<plot2.png, id=44, 607.26875pt x 341.275pt>
 File: plot2.png Graphic file (type png)
 <use plot2.png>
-Package pdftex.def Info: plot2.png  used on input line 79.
+Package pdftex.def Info: plot2.png  used on input line 89.
 (pdftex.def)             Requested size: 312.9803pt x 175.89137pt.
-[2 <./ind.png>] [3 <./plot1.png> <./plot2.png>] (./template.aux)
+ [3 <./ind.png> <./plot1.png>] [4 <./plot2.png>]
+(./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9366 strings out of 476034
- 146738 string characters out of 5792854
- 1866388 words of memory out of 6000000
- 29711 multiletter control sequences out of 15000+600000
- 515163 words of font info for 42 fonts, out of 8000000 for 9000
+ 9394 strings out of 476034
+ 147061 string characters out of 5792854
+ 1865388 words of memory out of 6000000
+ 29730 multiletter control sequences out of 15000+600000
+ 515471 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,12n,76p,337b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb>
-Output written on template.pdf (4 pages, 485266 bytes).
+ 75i,12n,76p,352b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on template.pdf (5 pages, 6129122 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
